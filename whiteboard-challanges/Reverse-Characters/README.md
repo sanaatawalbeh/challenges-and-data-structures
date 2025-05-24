@@ -1,4 +1,4 @@
-# Challenge 03::Reverse Characters
+# Challenge 03:Reverse Characters
 
 ## Whiteboard
 
