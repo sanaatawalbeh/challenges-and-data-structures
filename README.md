@@ -19,5 +19,5 @@
 
 ### challenge 3- Reverse Characters
 
-![Minimum Value README file](./whiteboard-challanges/Reverse-Characters/README.md)
-![Minimum Value whiteboard](./whiteboard-challanges/Reverse-Characters/Reverse-Characters-whiteboard.jpg)
+![ReverseCharacters README file](./whiteboard-challanges/Reverse-Characters/README.md)
+![ReverseCharacters whiteboard](./whiteboard-challanges/Reverse-Characters/Reverse-Characters-whiteboard.jpg)
