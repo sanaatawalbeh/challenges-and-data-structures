@@ -21,3 +21,8 @@
 
 ![ReverseCharacters README file](./whiteboard-challanges/Reverse-Characters/README.md)
 ![ReverseCharacters whiteboard](./whiteboard-challanges/Reverse-Characters/Reverse-Characters-whiteboard.jpg)
+
+### challenge 4- Remove Middle Value
+
+![ReverseCharacters README file](./whiteboard-challanges/remove-middle-value/README.md)
+![ReverseCharacters whiteboard](./whiteboard-challanges/remove-middle-value/Remove-muddle-Value-Whiteboard.jpg)
