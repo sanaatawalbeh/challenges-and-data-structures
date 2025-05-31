@@ -2,8 +2,8 @@
 
 ## Whiteboard
 
-![Reverse Characters Whuteboard](Reverse-Characters-whiteboard.jpg)
+![Reverse Characters Whiteboard](Reverse-Characters-whiteboard.jpg)
 
 ## Whiteboard-Image
 
-![Reverse Characters Whuteboard image](Reverse-Characters-screenshot.png)
+![Reverse Characters Whiteboard image](Reverse-Characters-screenshot.png)
