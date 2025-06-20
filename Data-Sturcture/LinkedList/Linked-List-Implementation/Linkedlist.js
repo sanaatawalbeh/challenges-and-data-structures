@@ -97,8 +97,17 @@ class LinkedList {
         throw new Error("Index out of bounds");
       }
     } catch (error) {
-      return error.message; 
+      return error.message;
     }
+  }
+  toArray() {
+    const result = [];
+    let current = this.head;
+    while (current) {
+      result.push(current.data); 
+      current = current.next;
+    }
+    return result;
   }
 
   printList() {
