@@ -38,3 +38,23 @@ console.log("list with 0 node:");
 
 reverseLinkedList(list3);
 
+console.log("------------------------------------------------------------");
+
+
+const list4 = new LinkedList();
+list4.add(5);
+list4.add(10);
+list4.add(15);
+list4.add(5);
+list4.add(10);
+list4.add(15);
+list4.add(20);
+
+console.log("List with multiple nodes, including duplicated values:");
+console.log("Before Reverse (List 4):");
+list4.printList();
+
+reverseLinkedList(list4);
+
+console.log("After Reverse (List 4):");
+list4.printList();

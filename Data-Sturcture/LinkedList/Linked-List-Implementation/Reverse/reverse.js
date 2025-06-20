@@ -20,6 +20,23 @@ function reverseLinkedList(linkedList) {
 
     linkedList.head = prev;
     console.log("The list has been reversed successfully.");
+
+    // ✅ Count repeated values
+    const countMap = {};
+    current = linkedList.head;
+
+    while (current) {
+      const value = current.data;
+      countMap[value] = (countMap[value] || 0) + 1;
+      current = current.next;
+    }
+
+    // ✅ Print repeated values only
+    for (const value in countMap) {
+      if (countMap[value] > 1) {
+        console.log(`Value ${value} occurred ${countMap[value]} times`);
+      }
+    }
   } catch (err) {
     console.error("Reverse Error:", err.message);
   }
