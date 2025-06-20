@@ -31,34 +31,42 @@
 
 ## Challenge 05 - Part 1: `add()` Function whiteboard image
 
-### Whiteboard image ![add function](./Data-Sturcture/LinkedList/whiteboard-images/add-whiteboard.jpg)
+### Whiteboard image ![add function](./Data-Sturcture/LinkedList/Linked-List-Implementation/docs/implementation-whiteboard-images/add-whiteboard.jpg)
 
 ---
 
 ## Challenge 05 - Part 2: `remove()` Function whiteboard image
 
-### Whiteboard image ![remove function](./Data-Sturcture/LinkedList/whiteboard-images/remove-whiteboard.jpg)
+### Whiteboard image ![remove function](./Data-Sturcture/LinkedList/Linked-List-Implementation/docs/implementation-whiteboard-images/remove-whiteboard.jpg)
 
 ---
 
 ## Challenge 05 - Part 3: `printList()` Function whiteboard image
 
-### Whiteboard image ![printList function](./Data-Sturcture/LinkedList/whiteboard-images/printList-whiteboard.jpg)
+### Whiteboard image ![printList function](./Data-Sturcture/LinkedList/Linked-List-Implementation/docs/implementation-whiteboard-images/printList-whiteboard.jpg)
 
 ---
 
 ## Challenge 05 - Part 4: `includes()` Function whiteboard image
 
-### Whiteboard image ![includes function](./Data-Sturcture/LinkedList/whiteboard-images/includes-whiteboard.jpg)
+### Whiteboard image ![includes function](./Data-Sturcture/LinkedList/Linked-List-Implementation/docs/implementation-whiteboard-images/includes-whiteboard.jpg)
 
 ---
 
 ## Challenge 05 - Part 5: `insertAt()` Function whiteboard image
 
-### Whiteboard image ![insertAt function](./Data-Sturcture/LinkedList/whiteboard-images/insertAt-whiteboard.jpg)
+### Whiteboard image ![insertAt function](./Data-Sturcture/LinkedList/Linked-List-Implementation/docs/implementation-whiteboard-images/insertAt-whiteboard.jpg)
 
----
+## Challenge 06 - `reverseLinkedList(linkedList)` Function whiteboard image
+
+### Whiteboard image ![insertAt function](./Data-Sturcture/LinkedList/Linked-List-Implementation//docs/reverse-whiteboard.jpg)
 
 ## Console Output
 
-![Console Output](./Data-Sturcture/LinkedList/console-output.png)
+## Console Output for implementation part
+
+![Console Output](./Data-Sturcture/LinkedList/Linked-List-Implementation/docs/console-output-implementation.png)
+
+## Console Output for reverse part
+
+![Console Output](./Data-Sturcture/LinkedList/Linked-List-Implementation/docs/console-output-reverse.png)
