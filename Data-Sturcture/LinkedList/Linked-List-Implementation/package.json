@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "jest": "^30.0.2"
+    "jest": "^30.0.3"
   },
   "scripts": {
     "test": "jest"

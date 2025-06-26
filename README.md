@@ -59,7 +59,11 @@
 
 ## Challenge 06 - `reverseLinkedList(linkedList)` Function whiteboard image
 
-### Whiteboard image ![insertAt function](./Data-Sturcture/LinkedList/Linked-List-Implementation//docs/reverse-whiteboard.jpg)
+### Whiteboard image ![insertAt function](./Data-Sturcture/LinkedList/Linked-List-Implementation/docs/reverse-whiteboard.jpg)
+
+## Challenge 07 - `mergeSortedLists(list1, list2) {` Function whiteboard image
+
+## Whiteboard image ![insertAt function](./Data-Sturcture/LinkedList/Linked-List-Implementation//docs/merge-sorted-lists-whiteboard.jpg)
 
 ## Console Output
 
@@ -70,3 +74,7 @@
 ## Console Output for reverse part
 
 ![Console Output](./Data-Sturcture/LinkedList/Linked-List-Implementation/docs/console-output-reverse.png)
+
+## Console Output for merge Sorted part
+
+![Console Output](./Data-Sturcture/LinkedList/Linked-List-Implementation/docs/console-output-mergeSorted.png)
