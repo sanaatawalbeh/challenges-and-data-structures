@@ -31,7 +31,7 @@ describe("mergeSortedLists function", () => {
     const merged = mergeSortedLists(list1, list2);
 
     expect(merged.head).toBeNull(); // الناتج لازم يكون فاضي
-    expect(consoleSpy).toHaveBeenCalledWith("Both lists are empty."); // لازم تكون الرسالة انطبعت
+    expect(consoleSpy).toHaveBeenCalledWith("Both lists are empty."); 
   });
 
   test("merges sorted lists when two lists are non-empty", () => {
