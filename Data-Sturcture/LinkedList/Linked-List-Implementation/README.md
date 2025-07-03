@@ -34,10 +34,38 @@
 
 ### Whiteboard image ![insertAt function](./docs/reverse-whiteboard.jpg)
 
+---
+
+## Challenge 07 - `mergeSortedLists(list1, list2)` Function whiteboard image
+
+### Whiteboard image ![insertAt function](./docs/merge-sorted-lists-whiteboard.jpg)
+
+---
+
+## Challenge 08 - `rotateLeft(head, k)` Function whiteboard image
+
+### Whiteboard image ![rotateLeft(head, k)  function](./docs/rotate-whiteboard.jpg)
+
+---
+
 ## Console Output for implementation part
 
 ![Console Output](./docs/console-output-implementation.png)
 
+---
+
 ## Console Output for reverse part
 
 ![Console Output](./docs/console-output-reverse.png)
+
+---
+
+## Console Output for merge Sorted lists part
+
+![Console Output](./docs/console-output-mergeSorted.png)
+
+---
+
+## Console Output for rotate left part
+
+![Console Output](./docs/console-output-rotate.png)
