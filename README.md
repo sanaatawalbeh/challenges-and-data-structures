@@ -69,7 +69,11 @@
 
 ## Whiteboard image ![insertAt function](./Data-Sturcture/LinkedList/Linked-List-Implementation//docs/merge-sorted-lists-whiteboard.jpg)
 
-## Console Output
+## Challenge 08 - `rotateLeft(head, k)` Function whiteboard image
+
+## Whiteboard image ![rotateLeft(head, k)  function](./Data-Sturcture/LinkedList/Linked-List-Implementation//docs/rotate-whiteboard.jpg)
+
+## Console Output Images
 
 ## Console Output for implementation part
 
@@ -82,3 +86,7 @@
 ## Console Output for merge Sorted lists part
 
 ![Console Output](./Data-Sturcture/LinkedList/Linked-List-Implementation/docs/console-output-mergeSorted.png)
+
+## Console Output for rotate left part
+
+![Console Output](./Data-Sturcture/LinkedList/Linked-List-Implementation/docs/console-output-rotate.png)
