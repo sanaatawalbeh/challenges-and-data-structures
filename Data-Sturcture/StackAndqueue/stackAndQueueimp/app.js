@@ -87,79 +87,79 @@ console.log();
 
 //First in , first out 
 //--------------------------------------Queue part-------------------------------------------
-console.log("Queue contains more than one element (edge case):");
-const queue1 = new Queue();
+// console.log("Queue contains more than one element (edge case):");
+// const queue1 = new Queue();
 
-queue1.enqueue(4);
-queue1.enqueue(5);
-queue1.enqueue(6);
-console.log("Queue after insertion:");
-queue1.printQueue();
+// queue1.enqueue(4);
+// queue1.enqueue(5);
+// queue1.enqueue(6);
+// console.log("Queue after insertion:");
+// queue1.printQueue();
 
-console.log("Inserting more one value to see where it will added:");
-queue1.enqueue(7);
-queue1.printQueue();
-console.log();
+// console.log("Inserting more one value to see where it will added:");
+// queue1.enqueue(7);
+// queue1.printQueue();
+// console.log();
 
-console.log(
-  "Removing from the front of the queue and returning the removed value:"
-);
-console.log("removed value = ", queue1.dequeue());
-console.log("Resulting queue after dequeue operation:");
-queue1.printQueue();
-console.log();
+// console.log(
+//   "Removing from the front of the queue and returning the removed value:"
+// );
+// console.log("removed value = ", queue1.dequeue());
+// console.log("Resulting queue after dequeue operation:");
+// queue1.printQueue();
+// console.log();
 
-console.log("Peeking the front value without removing it:");
-console.log("Front value :", queue1.peek());
-console.log("Verifying that peeking doesn't remove any value:");
-queue1.printQueue();
-console.log();
+// console.log("Peeking the front value without removing it:");
+// console.log("Front value :", queue1.peek());
+// console.log("Verifying that peeking doesn't remove any value:");
+// queue1.printQueue();
+// console.log();
 
-console.log(
-  "Checking whether the queue is empty or not (true if it is empty , false if not):"
-);
-console.log(queue1.isEmpty());
+// console.log(
+//   "Checking whether the queue is empty or not (true if it is empty , false if not):"
+// );
+// console.log(queue1.isEmpty());
 
-console.log("--------------------------------------------------");
+// console.log("--------------------------------------------------");
 
-console.log("Queue with only one element (edge case):");
-const queue2 = new Queue();
-queue2.enqueue(200);
+// console.log("Queue with only one element (edge case):");
+// const queue2 = new Queue();
+// queue2.enqueue(200);
 
-console.log("Printing a queue with only one element:");
-queue2.printQueue();
-console.log();
+// console.log("Printing a queue with only one element:");
+// queue2.printQueue();
+// console.log();
 
-console.log("Returning the front value from a single-element queue:");
-console.log("Front value:", queue2.peek());
-console.log();
+// console.log("Returning the front value from a single-element queue:");
+// console.log("Front value:", queue2.peek());
+// console.log();
 
-console.log("Removing the front value from the queue...");
-const removedValue = queue2.dequeue();
-console.log("Removed value:", removedValue);
-console.log("Resulting queue after dequeue operation:");
-queue2.printQueue()
-console.log();
+// console.log("Removing the front value from the queue...");
+// const removedValue = queue2.dequeue();
+// console.log("Removed value:", removedValue);
+// console.log("Resulting queue after dequeue operation:");
+// queue2.printQueue()
+// console.log();
 
-console.log("Checking if the queue is empty:");
-console.log(queue2.isEmpty());
+// console.log("Checking if the queue is empty:");
+// console.log(queue2.isEmpty());
 
-console.log("--------------------------------------------------");
-console.log("Empty queue (edge case):");
-const queue3 = new Queue();
+// console.log("--------------------------------------------------");
+// console.log("Empty queue (edge case):");
+// const queue3 = new Queue();
 
-console.log("Attempting to print an empty queue:");
-queue3.printQueue();
-console.log();
+// console.log("Attempting to print an empty queue:");
+// queue3.printQueue();
+// console.log();
 
-console.log("Attempting to remove an element from an empty queue:");
-console.log(queue3.dequeue());
-console.log();
+// console.log("Attempting to remove an element from an empty queue:");
+// console.log(queue3.dequeue());
+// console.log();
 
-console.log("Attempting to return the front value from an empty queue:");
-console.log(queue3.peek());
-console.log();
+// console.log("Attempting to return the front value from an empty queue:");
+// console.log(queue3.peek());
+// console.log();
 
-console.log("Checking if the queue is empty:");
-console.log(queue3.isEmpty());
+// console.log("Checking if the queue is empty:");
+// console.log(queue3.isEmpty());
 
