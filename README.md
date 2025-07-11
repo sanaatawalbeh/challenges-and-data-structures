@@ -81,28 +81,52 @@
 
 ![rotate left Linked List README file](./Data-Sturcture/LinkedList/Linked-List-Implementation/Rotate-LinkedList/README.md)
 
+## Challenge 09 - Stack and Queue implementation
+
+## part1 - Stack implementation
+
+## Whiteboard image ![stack implementation](./Data-Sturcture/StackAndqueue/stackAndQueueimp/docs/stack-whiteboard.jpg)
+
+## Part2 - Queue implementation
+
+## Whiteboard image ![queue implementation](./Data-Sturcture/StackAndqueue/stackAndQueueimp/docs/stack-whiteboard.jpg)
+
+![stack And Queue implementation README file](./Data-Sturcture/StackAndqueue/stackAndQueueimp/README.md)
+
 ---
 
 ## Console Output Images
 
-## Console Output for implementation part
+## Console Output for implementation part (Challenge 5 )
 
 ![Console Output](./Data-Sturcture/LinkedList/Linked-List-Implementation/docs/console-output-implementation.png)
 
 ---
 
-## Console Output for reverse part
+## Console Output for reverse part (Challenge 6 )
 
 ![Console Output](./Data-Sturcture/LinkedList/Linked-List-Implementation/docs/console-output-reverse.png)
 
 ---
 
-## Console Output for merge Sorted lists part
+## Console Output for merge Sorted lists part (Challenge 7 )
 
 ![Console Output](./Data-Sturcture/LinkedList/Linked-List-Implementation/docs/console-output-mergeSorted.png)
 
 ---
 
-## Console Output for rotate left part
+## Console Output for rotate left part (Challenge 8 )
 
 ![Console Output](./Data-Sturcture/LinkedList/Linked-List-Implementation/docs/console-output-rotate.png)
+
+---
+
+## Console Output for Stack And Queue implementation (Challenge 9)
+
+## Console Output for Stack implementation part
+
+![Console Output](./Data-Sturcture/StackAndqueue/stackAndQueueimp/docs/stack-console-output.png)
+
+## Console Output for Queue implementation part
+
+![Console Output](./Data-Sturcture/StackAndqueue/stackAndQueueimp/docs/queue-console-output.png)

@@ -2,7 +2,6 @@ const LinkedList = require("./Linkedlist");
 // const reverseLinkedList = require("./Reverse/reverse");
 //const mergeSortedLists = require("./MergeSorted/mergeSorted");
 
-
 const rotateLeft = require("./Rotate-LinkedList/Rotatate-LinkedList");
 console.log("Rotating in normal case (k=2): ");
 
@@ -118,27 +117,7 @@ list6.head = rotateLeft(list6.head, -3);
 console.log("After Rotation:");
 list6.printList();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Stack باستخدام Linked List (كائنات فقط)
 
 // console.log("merges sorted lists when two lists are non-empty");
 
