@@ -89,7 +89,7 @@
 
 ## Part2 - Queue implementation
 
-## Whiteboard image ![queue implementation](./Data-Sturcture/StackAndqueue/stackAndQueueimp/docs/stack-whiteboard.jpg)
+## Whiteboard image ![queue implementation](./Data-Sturcture/StackAndqueue/stackAndQueueimp/docs/queue-whiteboard.jpg)
 
 ![stack And Queue implementation README file](./Data-Sturcture/StackAndqueue/stackAndQueueimp/README.md)
 

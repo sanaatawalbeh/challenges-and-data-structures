@@ -6,7 +6,7 @@
 
 ## Part2 - Queue implementation
 
-## Whiteboard image ![queue implementation](./docs/stack-whiteboard.jpg)
+## Whiteboard image ![queue implementation](./docs/queue-whiteboard.jpg)
 
 --
 
