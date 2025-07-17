@@ -95,6 +95,14 @@
 
 ---
 
+## Challenge 10 - Delete Middle Element of a Stack
+
+## Whiteboard image ![Delete Middle Element of a Stack](./Data-Sturcture/StackAndqueue/stackAndQueueimp/docs/Delete-Middle-Stack-whiteboard.jpg)
+
+![Delete Middle Element of a Stack README file](./Data-Sturcture/StackAndqueue/stackAndQueueimp/DeleteMiddleElement/README.md)
+
+---
+
 ## Console Output Images
 
 ## Console Output for implementation part (Challenge 5 )
@@ -130,3 +138,9 @@
 ## Console Output for Queue implementation part
 
 ![Console Output](./Data-Sturcture/StackAndqueue/stackAndQueueimp/docs/queue-console-output.png)
+
+---
+
+## Console Output for Delete Middle Element of a Stack
+
+![Console Output](./Data-Sturcture/StackAndqueue/stackAndQueueimp/docs/Delete-Middle-Stack-console-output.png)
