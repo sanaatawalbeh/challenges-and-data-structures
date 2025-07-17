@@ -67,7 +67,7 @@ console.log(deleteMiddle(stack4));
 // console.log("Resulting stack after pop operation:");
 // stack1.printStack();
 // console.log();
-
+////////////////////////////////////////////////////////////////////////////////////////////////////
 // console.log("Peeking the top value without removing it:");
 // console.log("Top value :",stack1.peek());
 // console.log("Verifying that peeking doesn't remove any value:");

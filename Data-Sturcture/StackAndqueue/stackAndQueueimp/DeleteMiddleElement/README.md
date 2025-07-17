@@ -1,6 +1,6 @@
 # Challenge 10 - Delete Middle Element of a Stack
 
-## Whiteboard image ![Delete Middle Element of a Stack](../docs/Delete-Middle-Stack-whiteboard.jpg)
+## Whiteboard image ![Delete Middle Element of a Stack](../docs/Delete-Middle-Stack.jpg)
 
 --
 
