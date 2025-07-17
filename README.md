@@ -97,7 +97,7 @@
 
 ## Challenge 10 - Delete Middle Element of a Stack
 
-## Whiteboard image ![Delete Middle Element of a Stack](./Data-Sturcture/StackAndqueue/stackAndQueueimp/docs/Delete-Middle-Stack-whiteboard.jpg)
+## Whiteboard image ![Delete Middle Element of a Stack](./Data-Sturcture/StackAndqueue/stackAndQueueimp/docs/Delete-Middle-Stack.jpg)
 
 ![Delete Middle Element of a Stack README file](./Data-Sturcture/StackAndqueue/stackAndQueueimp/DeleteMiddleElement/README.md)
 
