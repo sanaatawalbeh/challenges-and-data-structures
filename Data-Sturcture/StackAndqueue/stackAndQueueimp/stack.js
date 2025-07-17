@@ -21,7 +21,6 @@ class Stack {
     if (!this.top) return "The stack is empty, no top value to return.";
     return this.top.value;
   }
-    
 
   isEmpty() {
     if (this.top) {
@@ -43,6 +42,16 @@ class Stack {
       current = current.next;
     }
     console.log("top ->", values.join(" -> "), " -> buttom");
+  }
+
+  getSize() {
+    let count = 0;
+    let current = this.top;
+    while (current) {
+      count++;
+      current = current.next;
+    }
+    return count;
   }
 }
 
