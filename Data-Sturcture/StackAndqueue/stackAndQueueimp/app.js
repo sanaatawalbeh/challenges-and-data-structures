@@ -1,62 +1,100 @@
-const Stack = require("./stack");
+//const Stack = require("./stack");
 //const Queue = require("./queue");
-const deleteMiddle = require("./DeleteMiddleElement/StackWithDeleteMiddle");
+//const deleteMiddle = require("./DeleteMiddleElement/StackWithDeleteMiddle");
+const MinimumStack = require("./Min-Stack/MinStack");
 
-//Last in - First out
-//--------------------------------------Stack part-------------------------------------------
+const minstack1 = new MinimumStack();
 
-const stack1 = new Stack();
-stack1.push(1);
-stack1.push(2);
-stack1.push(3);
-stack1.push(4);
-stack1.push(5);
-console.log(
-  `Odd number of elements in the stack (size: ${stack1.getSize()}) before deleting the middle element:`
-);
-stack1.printStack();
-console.log("After deleting:");
-deleteMiddle(stack1);
-stack1.printStack();
+minstack1.push(15);
+minstack1.push(7);
+minstack1.push(12);
+minstack1.push(3);
+minstack1.push(4);
 
-console.log(
-  "-----------------------------------------------------------------"
-);
 
-const stack2 = new Stack();
-stack2.push(10);
-stack2.push(20);
-stack2.push(30);
-stack2.push(40);
-stack2.push(50);
-stack2.push(60);
-console.log(
-  `Even number of elements in the stack (size: ${stack2.getSize()}) before deleting the middle element:`
-);
-stack2.printStack();
-console.log("After deleting:");
-deleteMiddle(stack2);
-stack2.printStack();
+console.log("Pushing values into the stack and printing:");
+minstack1.printStack();
+console.log();
 
-console.log(
-  "-----------------------------------------------------------------"
-);
-const stack3 = new Stack();
-stack3.push(10);
-console.log("Stack with only one element before deleting the middle element:");
-stack3.printStack();
-console.log(deleteMiddle(stack3));
-console.log(
-  "Trying to print after deleting to ensure that the stack is now empty:"
-);
-stack3.printStack();
+console.log("Trying to get the minimum value (should be 3):");
+let minValue = minstack1.getMin();
+console.log("Minimum value:", minValue);
+console.log();
 
-console.log(
-  "-----------------------------------------------------------------"
-);
-const stack4 = new Stack();
-console.log("Trying to delete from an empty stack:");
-console.log(deleteMiddle(stack4));
+console.log("Popping one value and printing the stack:");
+minstack1.pop();
+minstack1.printStack();
+console.log();
+
+console.log("Trying again to get the updated minimum value (should now be 7):");
+minValue = minstack1.getMin();
+console.log("Minimum value:", minValue);
+console.log();
+
+console.log("Printing the top value of the stack:", minstack1.topStack());
+console.log();
+
+minstack1.push(2);
+console.log("Pushing another value into the stack and printing:");
+minstack1.printStack();
+console.log();
+
+console.log("Trying again to get the updated minimum value (should now be 2):");
+minValue = minstack1.getMin();
+console.log("Minimum value:", minValue);
+console.log();
+
+console.log("Checking if the stack is empty:", minstack1.isEmpty());
+
+
+// let minValue2 = stack1.getMin();
+// console.log("Minimum value", minValue2);
+
+// stack1.pop();
+// stack1.printStack();
+// let minValue3 = stack1.getMin();
+// console.log("Minimum value", minValue3);
+
+
+
+
+
+
+
+// const stack2 = new Stack();
+// stack2.push(10);
+// stack2.push(20);
+// stack2.push(30);
+// stack2.push(40);
+// stack2.push(50);
+// stack2.push(60);
+// console.log(
+//   `Even number of elements in the stack (size: ${stack2.getSize()}) before deleting the middle element:`
+// );
+// stack2.printStack();
+// console.log("After deleting:");
+// deleteMiddle(stack2);
+// stack2.printStack();
+
+// console.log(
+//   "-----------------------------------------------------------------"
+// );
+// const stack3 = new Stack();
+// stack3.push(10);
+// console.log("Stack with only one element before deleting the middle element:");
+// stack3.printStack();
+// console.log(deleteMiddle(stack3));
+// console.log(
+//   "Trying to print after deleting to ensure that the stack is now empty:"
+// );
+// stack3.printStack();
+
+// console.log(
+//   "-----------------------------------------------------------------"
+// );
+// const stack4 = new Stack();
+// console.log("Trying to delete from an empty stack:");
+// console.log(deleteMiddle(stack4));
 
 
 
