@@ -103,6 +103,14 @@
 
 ---
 
+## Challenge 11 - Minimum Value in a Stack
+
+## Whiteboard image ![ Minimum Value in a Stack](./Data-Sturcture/StackAndqueue/stackAndQueueimp/docs/Min-Stack-whiteboard.jpg)
+
+![Minimum Value in a Stack README file](./Data-Sturcture/StackAndqueue/stackAndQueueimp/Min-Stack/README.md)
+
+---
+
 ## Console Output Images
 
 ## Console Output for implementation part (Challenge 5 )
@@ -141,6 +149,12 @@
 
 ---
 
-## Console Output for Delete Middle Element of a Stack
+## Console Output for Delete Middle Element of a Stack (Challenge 10)
 
 ![Console Output](./Data-Sturcture/StackAndqueue/stackAndQueueimp/docs/Delete-Middle-Stack-console-output.png)
+
+---
+
+## Console Output for Minimum value in a Stack (Challenge 10)
+
+![Console Output](./Data-Sturcture/StackAndqueue/stackAndQueueimp/docs/Min-Stack-console-output.png)
