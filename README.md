@@ -111,6 +111,20 @@
 
 ---
 
+## Challenge 12- Binary Tree and Binary Search Tree implementation
+
+## Part1 - Binary Tree implementation
+
+## Whiteboard image ![Binary Tree implementation](./Data-Sturcture/Trees/docs/BinaryTree-whiteboard.jpg)
+
+## Part2 - Binary Search Tree implementation
+
+## Whiteboard image ![Binary Search implementation](./Data-Sturcture/Trees/docs/BinarySearchTree-whiteboard.jpg)
+
+![ Binary Tree and Binary Search Tree implementation README file](./Data-Sturcture/Trees/README.md)
+
+---
+
 ## Console Output Images
 
 ## Console Output for implementation part (Challenge 5 )
@@ -155,6 +169,18 @@
 
 ---
 
-## Console Output for Minimum value in a Stack (Challenge 10)
+## Console Output for Minimum value in a Stack (Challenge 11)
 
 ![Console Output](./Data-Sturcture/StackAndqueue/stackAndQueueimp/docs/Min-Stack-console-output.png)
+
+---
+
+## Console Output for Binary Tree implementation part (challenge 12)
+
+![Console Output](./Data-Sturcture/Trees/docs/Console-output-BinaryTree.png)
+
+--
+
+## Console Output for Binary Search Tree implementation part (challenge 12)
+
+![Console Output](./Data-Sturcture/Trees/docs/Console-outputBinarySearchTree.png)
