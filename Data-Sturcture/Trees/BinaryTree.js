@@ -18,7 +18,6 @@ class BinareTree {
     while (queue.length) {
       const current = queue.shift();
 
-      // جرب نحط اليسار
       if (!current.left) {
         current.left = newNode;
         return;
@@ -26,7 +25,6 @@ class BinareTree {
         queue.push(current.left);
       }
 
-      // جرب نحط اليمين
       if (!current.right) {
         current.right = newNode;
         return;
@@ -64,7 +62,7 @@ class BinareTree {
   }
 
   print(node = this.root, space = 0, levelSpace = 5) {
-    if (!node) return;
+    if (!node) return "This tree is empty , nothing to print";
     space += levelSpace;
     this.print(node.right, space);
     console.log(" ".repeat(space - levelSpace) + node.value);

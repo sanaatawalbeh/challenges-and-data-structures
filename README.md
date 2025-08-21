@@ -125,6 +125,12 @@
 
 ---
 
+## Challenge 13 - Binary Tree - Second Maximum Value
+
+## Whiteboard image ![ Binary Tree - Second Maximum Value](./Data-Sturcture/Trees/docs/SecondMaxValue+Whiteboard.jpg)
+
+![Binary Tree - Second Maximum ValueREADME file](./Data-Sturcture/Trees/SecondMaxValue/README.md)
+
 ## Console Output Images
 
 ## Console Output for implementation part (Challenge 5 )
@@ -184,3 +190,7 @@
 ## Console Output for Binary Search Tree implementation part (challenge 12)
 
 ![Console Output](./Data-Sturcture/Trees/docs/Console-outputBinarySearchTree.png)
+
+## Console Output for Binary Tree - Second Maximum Value (challenge 13)
+
+![Console Output](./Data-Sturcture/Trees/docs/Console-Output-SecondMaxValue.png)
