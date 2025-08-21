@@ -127,7 +127,7 @@
 
 ## Challenge 13 - Binary Tree - Second Maximum Value
 
-## Whiteboard image ![ Binary Tree - Second Maximum Value](./Data-Sturcture/Trees/docs/SecondMaxValue+Whiteboard.jpg)
+## Whiteboard image ![ Binary Tree - Second Maximum Value](./Data-Sturcture/Trees/docs/SecondMaxValue-Whiteboard.jpg)
 
 ![Binary Tree - Second Maximum ValueREADME file](./Data-Sturcture/Trees/SecondMaxValue/README.md)
 
