@@ -129,7 +129,17 @@
 
 ## Whiteboard image ![ Binary Tree - Second Maximum Value](./Data-Sturcture/Trees/docs/SecondMaxValue-Whiteboard.jpg)
 
-![Binary Tree - Second Maximum ValueREADME file](./Data-Sturcture/Trees/SecondMaxValue/README.md)
+![Binary Tree - Second Maximum Value README file](./Data-Sturcture/Trees/SecondMaxValue/README.md)
+
+---
+
+## Challenge 14 - Binary Tree - Sum of Leaf Nodes
+
+## Whiteboard image ![ Binary Tree - Sum of Leaf Nodes](./Data-Sturcture/Trees/docs/LeafSum-Whiteboard.jpg)
+
+![Binary Tree - Sum of Leaf Nodes README file](./Data-Sturcture/Trees/LeafSum/README.md)
+
+---
 
 ## Console Output Images
 
@@ -185,12 +195,18 @@
 
 ![Console Output](./Data-Sturcture/Trees/docs/Console-output-BinaryTree.png)
 
---
-
 ## Console Output for Binary Search Tree implementation part (challenge 12)
 
 ![Console Output](./Data-Sturcture/Trees/docs/Console-outputBinarySearchTree.png)
 
+--
+
 ## Console Output for Binary Tree - Second Maximum Value (challenge 13)
 
 ![Console Output](./Data-Sturcture/Trees/docs/Console-Output-SecondMaxValue.png)
+
+--
+
+## Console Output for Binary Tree - Sum of Leaf Nodes (challenge 14)
+
+![Console Output](./Data-Sturcture/Trees/docs/Console-Output-LeafSum.png)

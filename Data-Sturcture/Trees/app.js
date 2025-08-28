@@ -1,79 +1,133 @@
 const BinaryTree = require("./BinaryTree");
-const secondMaxValue = require("./SecondMaxValue/SecondMaxValue")
-// const BinarySearchTree = require("./BinarySearchTree");
+const LeafSum = require("./LeafSum/LeafSum");
 
-
-const Btree = new BinaryTree(100);
-Btree.insert(55);
-Btree.insert(180);
-Btree.insert(300);
-Btree.insert(74);
-Btree.insert(150);
-Btree.insert(400);
-console.log("Structure of Binary Tree (adding from left to right)");
-Btree.print();
-
-const secondMax = secondMaxValue(Btree.root);
-console.log("Second Max Value in normal tree:", secondMax);
-
-console.log("--------------------------------------------");
-
-const Btree1 = new BinaryTree(10);
-Btree1.insert(5);
-Btree1.insert(18);
+// =================== Tree 1 ===================
+console.log("=========== Tree 1 ===========");
+const Btree1 = new BinaryTree(9);
+Btree1.insert(8);
+Btree1.insert(12);
 Btree1.insert(3);
 Btree1.insert(7);
-Btree1.insert(18);
+Btree1.insert(17);
+Btree1.insert(23);
 Btree1.insert(4);
-console.log("Structure of Binary Tree (adding from left to right)");
+
+console.log("Structure of Binary Tree have normal values (inserting from left to right):");
 Btree1.print();
 
-const secondMax1 = secondMaxValue(Btree1.root);
-console.log("Second Max Value in tree that have duplicate values:", secondMax1);
-
-console.log("--------------------------------------------");
-const Btree5 = new BinaryTree(-10);
-Btree5.insert(-5);
-Btree5.insert(-18);
-Btree5.insert(-3);
-Btree5.insert(-7);
-Btree5.insert(-18);
-Btree5.insert(-4);
-console.log("Structure of Binary Tree (adding from left to right)");
-Btree5.print();
-
-const secondMax5 = secondMaxValue(Btree5.root);
-console.log("Second Max Value in tree that have negative values:", secondMax5);
-
+const Summation1 = LeafSum(Btree1.root);
+console.log("Sum of leaf nodes =", Summation1);
 console.log("--------------------------------------------");
 
-const Btree2 = new BinaryTree(10);
-Btree2.insert(5);
-console.log("Structure of Binary Tree (adding from left to right)");
+// =================== Tree 2 ===================
+console.log("=========== Tree 2 (with negative values) ===========");
+const Btree2 = new BinaryTree(9);
+Btree2.insert(8);
+Btree2.insert(12);
+Btree2.insert(3);
+Btree2.insert(-7);
+Btree2.insert(-17);
+Btree2.insert(-23);
+Btree2.insert(-4);
+
+console.log("Structure of Binary Tree have negative values(inserting from left to right):");
 Btree2.print();
 
-const secondMax2 = secondMaxValue(Btree2.root);
-console.log("Second Max Value in tree that have only 2 values:", secondMax2);
-
+const Summation2 = LeafSum(Btree2.root);
+console.log("Sum of leaf nodes =", Summation2);
 console.log("--------------------------------------------");
 
-const Btree3 = new BinaryTree(5);
-console.log("Structure of Binary Tree (adding from left to right)");
+// =================== Tree 3 (with negative values) ===================
+console.log("=========== Tree 3 ===========");
+const Btree = new BinaryTree(10);
+Btree.insert(5);
+
+console.log("Structure of Binary Tree have only 2 values (inserting from left to right):");
+Btree.print();
+
+const Summation = LeafSum(Btree.root);
+console.log("Sum of leaf nodes =", Summation);
+console.log("--------------------------------------------");
+
+// =================== Tree 4 (single node) ===================
+console.log("=========== Tree 4 (single node only) ===========");
+const Btree3 = new BinaryTree(42); 
+
+console.log("Structure of Binary Tree (single node):");
 Btree3.print();
 
-const secondMax3 = secondMaxValue(Btree3.root);
-console.log("Second Max Value in tree that have only one node:", secondMax3);
-
+const Summation3 = LeafSum(Btree3.root);
+console.log("Sum of leaf nodes =", Summation3);
 console.log("--------------------------------------------");
 
-const Btree4 = new BinaryTree();
-console.log("Structure of Binary Tree (adding from left to right)");
+// const Btree = new BinaryTree(100);
+// Btree.insert(55);
+// Btree.insert(180);
+// Btree.insert(300);
+// Btree.insert(74);
+// Btree.insert(150);
+// Btree.insert(400);
+// console.log("Structure of Binary Tree (adding from left to right)");
+// Btree.print();
 
-const secondMax4 = secondMaxValue(Btree4.root);
-console.log("Second Max Value in empty tree:", secondMax4);
+// const secondMax = secondMaxValue(Btree.root);
+// console.log("Second Max Value in normal tree:", secondMax);
 
+// console.log("--------------------------------------------");
 
+// const Btree1 = new BinaryTree(10);
+// Btree1.insert(30);
+// Btree1.insert(20);
+// Btree1.insert(20);
+// Btree1.insert(20);
+// Btree1.insert(30);
+// Btree1.insert(4);
+// console.log("Structure of Binary Tree (adding from left to right)");
+// Btree1.print();
 
+// const secondMax1 = secondMaxValue(Btree1.root);
+// console.log("Second Max Value in tree that have duplicate values (return the first value):", secondMax1);
+
+// console.log("--------------------------------------------");
+// const Btree5 = new BinaryTree(-10);
+// Btree5.insert(-5);
+// Btree5.insert(-18);
+// Btree5.insert(-3);
+// Btree5.insert(-7);
+// Btree5.insert(-18);
+// Btree5.insert(-4);
+// console.log("Structure of Binary Tree (adding from left to right)");
+// Btree5.print();
+
+// const secondMax5 = secondMaxValue(Btree5.root);
+// console.log("Second Max Value in tree that have negative values:", secondMax5);
+
+// console.log("--------------------------------------------");
+
+// const Btree2 = new BinaryTree(10);
+// Btree2.insert(5);
+// console.log("Structure of Binary Tree (adding from left to right)");
+// Btree2.print();
+
+// const secondMax2 = secondMaxValue(Btree2.root);
+// console.log("Second Max Value in tree that have only 2 values:", secondMax2);
+
+// console.log("--------------------------------------------");
+
+// const Btree3 = new BinaryTree(5);
+// console.log("Structure of Binary Tree (adding from left to right)");
+// Btree3.print();
+
+// const secondMax3 = secondMaxValue(Btree3.root);
+// console.log("Second Max Value in tree that have only one node:", secondMax3);
+
+// console.log("--------------------------------------------");
+
+// const Btree4 = new BinaryTree();
+// console.log("Structure of Binary Tree (adding from left to right)");
+
+// const secondMax4 = secondMaxValue(Btree4.root);
+// console.log("Second Max Value in empty tree:", secondMax4);
 
 // console.log("In order Traversal (left - root - right )");
 // Btree.InOrderTraversal(Btree.root);
@@ -96,7 +150,6 @@ console.log("Second Max Value in empty tree:", secondMax4);
 // bst.add(35);
 // bst.add(65);
 // bst.add(25);
-
 
 // console.log(
 //   "Structure for Binary Search Tree before adding 27 & 64 "
